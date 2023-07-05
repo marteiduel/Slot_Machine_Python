@@ -80,7 +80,7 @@ def deposit():
 
 def get_number_of_lines():
         while True:
-            lines = input("Enter the numbe of lines to be on (1 - " + str(MAX_LINES) + ")? ")
+            lines = input("Enter the number of lines to be on (1 - " + str(MAX_LINES) + ")? ")
             if lines.isdigit():
                 lines = int(lines)
                 if 1 <= lines <= MAX_LINES:
